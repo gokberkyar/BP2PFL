@@ -1,0 +1,14 @@
+{
+  "name": "peerid",
+  "version": "1.0.0",
+  "description": "",
+  "main": "peer-id.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "peer-id": "^0.16.0"
+  }
+}

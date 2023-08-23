@@ -1,0 +1,23 @@
+{
+  "name": "p2p",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node worker.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@chainsafe/libp2p-noise": "5.0.2",
+    "@libp2p/mplex": "1.0.0",
+    "libp2p": "0.36.2",
+    "libp2p-bootstrap": "0.14.0",
+    "libp2p-gossipsub": "0.13.0",
+    "libp2p-pubsub-peer-discovery": "4.0.0",
+    "libp2p-relay-server": "0.3.0",
+    "libp2p-tcp": "0.17.2",
+    "peer-id": "^0.16.0"
+  }
+}
